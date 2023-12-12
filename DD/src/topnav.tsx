@@ -1,6 +1,6 @@
 import "./topnav.css";
 
-export default function TopNav() {
+export default function TopNavc() {
   return (
     <div className="box">
       <div className="navbar">
@@ -10,6 +10,6 @@ export default function TopNav() {
         <div className="text-wrapper-3">Testimonials</div>
         <div className="text-wrapper-4">About us</div>
       </div>
-    </div>  
+    </div>
   );
 };
