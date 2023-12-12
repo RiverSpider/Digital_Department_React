@@ -1,0 +1,79 @@
+.box {
+    height: 23px;
+    position: relative;
+    width: 545px;
+  }
+  
+  .box .navbar {
+    float: 'right';
+    height: 23px;
+    right: 200;
+    position: fixed;
+    top: 50;
+    width: 555px;
+  }
+  
+  .box .text-wrapper {
+    color: #1f1534;
+    font-family: "Muli-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .box .div {
+    color: #1f1534;
+    font-family: "Muli-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 91px;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+  }
+  
+  .box .text-wrapper-2 {
+    color: #1f1534;
+    font-family: "Muli-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 241px;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+  }
+  
+  .box .text-wrapper-3 {
+    color: #1f1534;
+    font-family: "Muli-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 325px;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+  }
+  
+  .box .text-wrapper-4 {
+    color: #1f1534;
+    font-family: "Muli-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 469px;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+  }
+  
