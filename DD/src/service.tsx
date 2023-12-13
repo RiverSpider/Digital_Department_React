@@ -1,14 +1,14 @@
 import './service.css';
 
-export default function Service() {
-  return (
-    <div className='service'>
-      <div className='pic' />
-      <span className='serviceH'>Search doctor</span>
-      <span className='serviceS'>
-        Choose your doctor from thousands of specialist, general, and trusted
-        hospitals
-      </span>
-    </div>
-  );
+export default function Service(props: { imageSrc: any, headerText: any, serviceText: any }) {
+    return (
+        <div className='service'>
+        <div
+            className='pic'
+            style={{ backgroundImage: `url(${props.imageSrc})`, }}
+        />
+        <span className='serviceH'>{props.headerText}</span>
+        <span className='serviceS'>{props.serviceText}</span>
+        </div>
+    );
 }
