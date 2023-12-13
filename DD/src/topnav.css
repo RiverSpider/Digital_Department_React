@@ -13,7 +13,7 @@
     width: 555px;
   }
   
-  .box .text-wrapper {
+  .box .home {
     color: #1f1534;
     font-family: "Muli-Bold", Helvetica;
     font-size: 18px;
@@ -25,7 +25,7 @@
     top: 0;
   }
   
-  .box .div {
+  .box .doctor {
     color: #1f1534;
     font-family: "Muli-Regular", Helvetica;
     font-size: 18px;
@@ -38,7 +38,7 @@
     top: 0;
   }
   
-  .box .text-wrapper-2 {
+  .box .apps {
     color: #1f1534;
     font-family: "Muli-Regular", Helvetica;
     font-size: 18px;
@@ -51,7 +51,7 @@
     top: 0;
   }
   
-  .box .text-wrapper-3 {
+  .box .tes {
     color: #1f1534;
     font-family: "Muli-Regular", Helvetica;
     font-size: 18px;
@@ -64,7 +64,7 @@
     top: 0;
   }
   
-  .box .text-wrapper-4 {
+  .box .au {
     color: #1f1534;
     font-family: "Muli-Regular", Helvetica;
     font-size: 18px;

@@ -1,0 +1,16 @@
+.illustration {
+    overflow: hidden;
+  }
+  
+  .illustration,
+  .illustration * {
+    box-sizing: border-box;
+  }
+  
+  .illustration {
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }

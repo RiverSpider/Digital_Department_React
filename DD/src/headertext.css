@@ -1,0 +1,75 @@
+.HeaderText {
+    height: 338px;
+    position: relative;
+    width: 427px;
+  }
+  
+  .HeaderText .header-text {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .HeaderText .MainText {
+    color: #000000;
+    font-family: "Muli-Bold", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  
+  .HeaderText .SubText {
+    color: #7c7987;
+    font-family: "Muli-Light", Helvetica;
+    font-size: 21px;
+    font-weight: 300;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    top: 137px;
+    width: 427px;
+  }
+  
+  .HeaderText .Button {
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 278px;
+    width: 202px;
+  }
+  
+  .HeaderText .overlap-group {
+    height: 60px;
+    position: relative;
+    width: 200px;
+  }
+  
+  .HeaderText .rectangle {
+    background-color: #458ff6;
+    border-radius: 55px;
+    height: 56px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 200px;
+  }
+  
+  .HeaderText .ButText {
+    color: #ffffff;
+    font-family: "Muli-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }

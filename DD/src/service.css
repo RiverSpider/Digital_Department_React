@@ -9,59 +9,55 @@
   
   .main-container {
     position: relative;
-    width: 183px;
-    height: 41px;
+    width: 350px;
+    height: 354px;
     margin: 0 auto;
   }
   .pic {
-    position: absolute;
-    width: 41px;
-    height: 41px;
-    top: 0;
-    left: 0;
-    background: url(assets/images/CircleLogo.svg)
+    position: relative;
+    width: 91.978px;
+    height: 90px;
+    margin: 54px 0 0 37px;
+    background: url(../assets/images/7d7aaa31-e737-4c53-ac32-eba640be1cbb.png)
       no-repeat center;
     background-size: cover;
-    z-index: 1;
-    border-radius: 50%;
+    z-index: 3;
+    overflow: hidden;
   }
   .text {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 78.05%;
-    top: 12.2%;
-    left: 7.1%;
+    display: block;
+    position: relative;
+    height: 56px;
+    margin: 22.408px 0 0 39px;
     font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
       "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
       "Source Han Sans CN", sans-serif;
-    color: #ffffff;
-    font-size: 26px;
+    color: #000000;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 30.469px;
+    line-height: 56px;
     text-align: left;
     white-space: nowrap;
-    z-index: 2;
+    z-index: 1;
   }
   .text-2 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    position: absolute;
-    height: 73.17%;
-    top: 14.63%;
-    left: 28.96%;
+    position: relative;
+    width: 266px;
+    height: 84px;
+    margin: 1px 0 0 39px;
     font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
       "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
       "Source Han Sans CN", sans-serif;
-    color: #233248;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28.125px;
+    color: #7c7987;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
     text-align: left;
-    white-space: nowrap;
+    z-index: 2;
   }
   
