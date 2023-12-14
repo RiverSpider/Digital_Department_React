@@ -8,7 +8,7 @@
   }
   
   .dots {
-    position: relative;
+    position: absolute;
     width: 131.581px;
     height: 115px;
     background: url(assets/images/Dots.svg)

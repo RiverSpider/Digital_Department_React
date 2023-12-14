@@ -7,6 +7,8 @@ import HeaderText from './headertext.tsx'
 import Illustration from './illustration.tsx'
 import BlockHeader from './blockheader.tsx'
 import Services from './services.tsx'
+import Oval from './oval.tsx'
+import WoButton from './wobutton.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -31,9 +33,16 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         title="Our Services"
         description="We provide to you the best choices for you. Adjust it to your health needs and make sure you undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health"
       />
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginLeft: '10%', marginRight: '10%' }}>
+      <div style={{ position: 'relative', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginLeft: '10%', marginRight: '10%' }}>
         <Services />
       </div>
+      <div style={{ position: 'absolute', top: 1000, marginLeft: -10 }}>
+        <Oval />
+      </div>
+      <div style={{ position: 'absolute', top: 1360, right:325, zIndex: -1}}>
+        <Dots />
+      </div>
+      <WoButton Text={"Learn more"} />
     </div>
   </React.StrictMode>,
 )
