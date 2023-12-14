@@ -3,18 +3,18 @@ import './footer.css';
 export default function Footer() {
   return (
     <div className='footer'>
-      <div className='1' />
-      <div className='2'>
-        <div className='group'>
-          <span className='text'>Company</span>
-          <span className='text-2'>Region</span>
-          <span className='text-3'>Help</span>
-          <div className='img-3' />
+      <div className='footerDotsW' />
+      <div className='footerBG'>
+        <div className='headers'>
+          <span className='H1'>Company</span>
+          <span className='H2'>Region</span>
+          <span className='H3'>Help</span>
+          <div className='footerCircle' />
           <span className='T'>T</span>
           <span className='name'>HealthCare</span>
         </div>
-        <div className='wrapper'>
-          <span className='text-6'>
+        <div className='sub'>
+          <span className='S1'>
             About
             <br />
             Testimonials
@@ -23,7 +23,7 @@ export default function Footer() {
             <br />
             Apps
           </span>
-          <span className='text-7'>
+          <span className='S2'>
             Indonesia
             <br />
             Singapore
@@ -32,25 +32,27 @@ export default function Footer() {
             <br />
             Canada
           </span>
-          <span className='text-8'>
+
+          <span className='nameS'>
             HealthCare provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
           </span>
-          <span className='text-9'>
-            ©HealthCare PTY LTD 2023. All rights reserved
+          <span className='reg'>
+            (c)HealthCare PTY LTD 2023. All rights reserved
           </span>
         </div>
       </div>
-      <span className='text-a'>
-        Help center
-        <br />
-        Contact support
-        <br />
-        Instructions
-        <br />
-        How it works
-      </span>
-      <div className='pic' />
+      <span className='S3'>
+            Help center
+            <br />
+            Contact support
+            <br />
+            Instructions
+            <br />
+            How it works
+          </span>
+      <div className='footerDots' />
     </div>
   );
 }
+

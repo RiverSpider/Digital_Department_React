@@ -85,7 +85,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Dots />
         </div>
         <Articles />
-        <div style={{ position: 'absolute', top: "-16%", transform: 'rotateX(180deg) rotateY(180deg)', marginRight: "-100%", zIndex: -1 }}>
+        <div style={{ position: 'absolute', top: "-16%", transform: 'rotateX(180deg) rotateY(180deg)', marginRight: "-70.4%", zIndex: -1 }}>
           <Oval />
         </div>
       </div>

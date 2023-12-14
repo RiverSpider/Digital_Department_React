@@ -1,47 +1,46 @@
-.main-container {
+.footer {
     overflow: hidden;
   }
   
-  .main-container,
-  .main-container * {
+  .footer,
+  .footer * {
     box-sizing: border-box;
   }
   
-  .main-container {
+  .footer {
     position: relative;
-    width: 1638px;
+    width: 100%;
     height: 523px;
     margin: 0 auto;
   }
-  .pic {
+  .footerDotsW {
     position: absolute;
     width: 8.03%;
     height: 21.99%;
-    top: 0;
+    top: 5%;
     left: 85.23%;
-    background: url(assets/images/footerback.svg)
+    background: url(assets/images/Dots.svg)
       no-repeat center;
     background-size: 100% 100%;
   }
-  .img {
+  .footerBG {
     position: absolute;
-    width: 1600px;
+    width: 100%;
     height: 432px;
-    top: 72px;
-    left: 19px;
+    bottom: 0;
     background: url(assets/images/footerback.svg)
       no-repeat center;
     background-size: cover;
     z-index: 1;
   }
-  .group {
+  .headers {
     position: relative;
     width: 1082px;
     height: 60px;
     margin: 109px 0 0 191px;
     z-index: 16;
   }
-  .text {
+  .H1 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -61,7 +60,7 @@
     white-space: nowrap;
     z-index: 10;
   }
-  .text-2 {
+  .H2 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -81,7 +80,7 @@
     white-space: nowrap;
     z-index: 13;
   }
-  .text-3 {
+  .H3 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -101,19 +100,19 @@
     white-space: nowrap;
     z-index: 16;
   }
-  .img-2 {
+  .footerCircle {
     position: absolute;
     width: 41px;
     height: 41px;
     top: 9px;
     left: 0;
-    background: url(assets/images/footerback.svg)
+    background: url(assets/images/CircleLogoW.svg)
       no-repeat center;
     background-size: cover;
     z-index: 4;
     border-radius: 50%;
   }
-  .text-4 {
+  .T {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -133,7 +132,7 @@
     white-space: nowrap;
     z-index: 5;
   }
-  .text-5 {
+  .name {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -153,14 +152,14 @@
     white-space: nowrap;
     z-index: 3;
   }
-  .box {
+  .sub {
     position: relative;
     width: 1196px;
     height: 152px;
     margin: 2px 0 0 190px;
     z-index: 12;
   }
-  .text-6 {
+  .S1 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -182,7 +181,7 @@
     z-index: 9;
     overflow: hidden;
   }
-  .text-7 {
+  .S2 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -204,7 +203,7 @@
     z-index: 12;
     overflow: hidden;
   }
-  .text-8 {
+  .nameS {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -224,7 +223,7 @@
     text-align: left;
     z-index: 6;
   }
-  .text-9 {
+  .reg {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -244,15 +243,15 @@
     white-space: nowrap;
     z-index: 7;
   }
-  .text-a {
+  .S3 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     position: absolute;
     width: 391px;
-    height: 29.06%;
-    top: 46.46%;
-    left: 76.13%;
+    height: 30%;
+    top: 50%;
+    left: 68.4%;
     font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
       "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
@@ -266,13 +265,13 @@
     z-index: 15;
     overflow: hidden;
   }
-  .pic-2 {
+  .footerDots {
     position: absolute;
     width: 8.03%;
     height: 21.99%;
     top: 78.01%;
     left: 0;
-    background: url(assets/images/footerback.svg)
+    background: url(assets/images/DotsW.svg)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 17;
