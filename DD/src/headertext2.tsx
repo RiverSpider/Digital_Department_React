@@ -1,17 +1,17 @@
 import './headertext2.css';
 import WoButton from './wobutton';
 
-export default function HeaderText2() {
+export default function HeaderText2(props: { TextH: any, TextS: any, TextB: any }) {
   return (
     <div className='headertext2'>
-      <span className='textH'>Leading healthcare providers</span>
+      <span className='textH'>{props.TextH}</span>
       <div className='dividerH' />
       <span className='textS'>
-        We provides progressive, and affordable healthcare, accessible on mobile
-        and online for everyone. To us, it’s not just work. We take pride in the
-        solutions we deliver
+      {props.TextS}
       </span>
-      <WoButton Text={"Learn more"} />
+      <div style={{ position: 'relative', marginRight: "58%", marginTop: '14%' }}>
+      <WoButton Text={props.TextB} />
+      </div>
     </div>
   );
 }
