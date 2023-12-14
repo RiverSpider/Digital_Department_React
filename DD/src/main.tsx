@@ -10,6 +10,10 @@ import Services from './services.tsx'
 import Oval from './oval.tsx'
 import WoButton from './wobutton.tsx'
 import HeaderText2 from './headertext2.tsx'
+import Review from './review.tsx'
+import Slider from './slider.tsx'
+import Articles from './articles.tsx'
+import Footer from './footer.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -52,8 +56,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <div style={{ flex: 'none', marginTop: '5%'}}>
           <HeaderText2 TextH={"Leading healthcare providers"} TextS={"We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride in the solutions we deliver"} TextB={"Learn more"} /></div>
           <div style={{ position: 'absolute', right: "8%", marginTop: "27%" }}>
-          <Dots />
-        </div>
+            <Dots />
+          </div>
       </div>
 
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginLeft: '15%', marginRight: '10%', marginTop: '10%' }}>
@@ -69,7 +73,24 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Illustration width="665px" height="434px" imageUrl= "src/assets/images/HeaderIllustration3.png" />
         </div>
       </div>
-      
+      <Review reviewH={"What our customer are saying"} reviewText={"Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely"} reviewName={"Edward Newgate"} reviewW={"Founder Circle"} avatar={"src/assets/images/Avatar.png"} />
+      <Slider />
+
+      <BlockHeader
+        title="Check out our latest article"
+        description
+      />
+      <div style={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'flex-start', marginLeft: '10%', marginRight: '10%', marginTop: '-5%' }}>
+        <div style={{position: 'absolute', top: '-8%', left: "7%"}}>
+          <Dots />
+        </div>
+        <Articles />
+        <div style={{ position: 'absolute', top: "-16%", transform: 'rotateX(180deg) rotateY(180deg)', marginRight: "-100%", zIndex: -1 }}>
+          <Oval />
+        </div>
+      </div>
+      <WoButton Text={"View all"} />
+      <Footer />
     </div>
   </React.StrictMode>,
 )
