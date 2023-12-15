@@ -1,4 +1,4 @@
-import './blockheader.css';
+import './Blockheader.modules.css';
 
 export default function BlockHeader(props: { title: any, description: any }) {
     return (

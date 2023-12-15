@@ -19,7 +19,7 @@
     height: 21.99%;
     top: 5%;
     left: 85.23%;
-    background: url(assets/images/Dots.svg)
+    background: url(../assets/images/Dots.svg)
       no-repeat center;
     background-size: 100% 100%;
   }
@@ -28,7 +28,7 @@
     width: 100%;
     height: 432px;
     bottom: 0;
-    background: url(assets/images/footerback.svg)
+    background: url(../assets/images/footerback.svg)
       no-repeat center;
     background-size: cover;
     z-index: 1;
@@ -106,7 +106,7 @@
     height: 41px;
     top: 9px;
     left: 0;
-    background: url(assets/images/CircleLogoW.svg)
+    background: url(../assets/images/CircleLogoW.svg)
       no-repeat center;
     background-size: cover;
     z-index: 4;
@@ -249,9 +249,8 @@
     justify-content: flex-start;
     position: absolute;
     width: 391px;
-    height: 30%;
-    top: 50%;
-    left: 68.4%;
+    height: 100%;
+    left: 86.85%;
     font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
       "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
@@ -270,8 +269,8 @@
     width: 8.03%;
     height: 21.99%;
     top: 78.01%;
-    left: 0;
-    background: url(assets/images/DotsW.svg)
+    left: -1;
+    background: url(../assets/images/DotsW.svg)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 17;

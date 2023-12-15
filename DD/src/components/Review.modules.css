@@ -19,7 +19,7 @@
     height: 26.14%;
     top: 0;
     left: 89.21%;
-    background: url(assets/images/DotsW.svg)
+    background: url(../assets/images/DotsW.svg)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 2;
@@ -30,7 +30,7 @@
     height: 425px;
     top: 15px;
     left: 52px;
-    background: url(assets/images/ReviewBackground.svg)
+    background: url(../assets/images/ReviewBackground.svg)
       no-repeat center;
     background-size: cover;
     z-index: 1;
@@ -137,7 +137,7 @@
     height: 141px;
     top: 205px;
     left: 118px;
-    background: url(assets/images/Circle.svg)
+    background: url(../assets/images/Circle.svg)
       no-repeat center;
     background-size: cover;
     z-index: 8;

@@ -1,4 +1,4 @@
-import "./illustration.css";
+import "./Illustration.modules.css";
 
 export default function Illustration(props: { width: any; height: any; imageUrl: any; }) {
   const style = {

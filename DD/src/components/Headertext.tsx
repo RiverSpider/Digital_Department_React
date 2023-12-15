@@ -1,4 +1,4 @@
-import './headertext.css';
+import './Headertext.modules.css';
 
 export default function HeaderText() {
     return (

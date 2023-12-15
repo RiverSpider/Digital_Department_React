@@ -1,4 +1,4 @@
-import './footer.css';
+import './Footer.modules.css';
 
 export default function Footer() {
   return (
@@ -32,7 +32,15 @@ export default function Footer() {
             <br />
             Canada
           </span>
-
+          <span className='S3'>
+            Help center
+            <br />
+            Contact support
+            <br />
+            Instructions
+            <br />
+            How it works
+          </span>
           <span className='nameS'>
             HealthCare provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
@@ -42,15 +50,6 @@ export default function Footer() {
           </span>
         </div>
       </div>
-      <span className='S3'>
-            Help center
-            <br />
-            Contact support
-            <br />
-            Instructions
-            <br />
-            How it works
-          </span>
       <div className='footerDots' />
     </div>
   );

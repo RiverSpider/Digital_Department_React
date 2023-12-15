@@ -1,4 +1,4 @@
-import './article.css';
+import './Article.modules.css';
 
 export default function Article(props: { imageSrc: any, headerText: any, subText: any, buttonText: any }) {
   return (

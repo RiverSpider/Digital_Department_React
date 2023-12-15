@@ -1,5 +1,5 @@
-import Service from "./service";
-import './services.css';
+import Service from "./Service";
+import './Services.modules.css';
 
 export default function Services() {
     return (

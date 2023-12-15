@@ -1,5 +1,5 @@
-import Article from "./article";
-import './articles.css';
+import Article from "./Article";
+import './Articles.modules.css';
 
 export default function Articles() {
     return (

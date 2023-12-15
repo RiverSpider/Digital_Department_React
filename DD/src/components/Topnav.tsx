@@ -1,4 +1,4 @@
-import "./topnav.css";
+import "./Topnav.modules.css";
 
 export default function TopNav() {
   return (

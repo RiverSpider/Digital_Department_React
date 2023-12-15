@@ -1,5 +1,5 @@
-import './headertext2.css';
-import WoButton from './wobutton';
+import './Headertext2.modules.css';
+import WoButton from './Wobutton';
 
 export default function HeaderText2(props: { TextH: any, TextS: any, TextB: any }) {
   return (

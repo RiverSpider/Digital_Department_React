@@ -12,7 +12,7 @@
     width: 800px;
     height: 700px;
     margin: 0 auto;
-    background: url(assets/images/Oval.svg)
+    background: url(../assets/images/Oval.svg)
       no-repeat center;
     background-size: 100% 100%;
     z-index: -5;

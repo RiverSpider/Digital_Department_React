@@ -1,4 +1,4 @@
-import './service.css';
+import './Service.modules.css';
 
 export default function Service(props: { imageSrc: any, headerText: any, serviceText: any }) {
     return (

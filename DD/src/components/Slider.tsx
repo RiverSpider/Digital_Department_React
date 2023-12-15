@@ -1,4 +1,4 @@
-import './slider.css';
+import './Slider.modules.css';
 
 export default function Slider() {
   return (

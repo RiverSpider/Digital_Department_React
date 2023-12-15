@@ -1,4 +1,4 @@
-import './review.css';
+import './Review.modules.css';
 
 export default function Review(props: { reviewH: any, reviewText: any, reviewName: any, reviewW: any, avatar: any }) {
   return (

@@ -1,4 +1,4 @@
-import './wobutton.css';
+import './Wobutton.modules.css';
 
 export default function WoButton(props: { Text: any }) {
   return (

@@ -19,7 +19,7 @@
     height: 41px;
     top: 0;
     left: 0;
-    background: url(assets/images/CircleLogo.svg)
+    background: url(../assets/images/CircleLogo.svg)
       no-repeat center;
     background-size: cover;
     z-index: 1;
