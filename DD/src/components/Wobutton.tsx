@@ -1,10 +1,18 @@
 import './Wobutton.modules.css';
 
-export default function WoButton(props: { Text: any }) {
+interface IProps {
+  className?: string;
+  Text: string;
+  buttonIcon?: React.ReactNode;
+}
+
+export default function WoButton(props: IProps) {
   return (
-    <div className='wobutton'>
-      <span className='butext'>{props.Text}</span>
-      <div className='buborders' />
+    <div className={`${props.className} wobutton`}>
+      <div className="butext">{props.Text}</div>
+      {props.buttonIcon ? (
+        <div className="buttonIcon">{props.buttonIcon}</div>
+      ) : null}
     </div>
   );
 }

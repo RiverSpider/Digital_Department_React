@@ -10,49 +10,43 @@
   .footer {
     position: relative;
     width: 100%;
-    height: 523px;
-    margin: 0 auto;
+    height: 200%;
   }
   .footerDotsW {
     position: absolute;
-    width: 8.03%;
-    height: 21.99%;
-    top: 5%;
-    left: 85.23%;
+    width: 131px;
+    height: 115px;
+    right: 5%;
+    top: 0px;
     background: url(../assets/images/Dots.svg)
       no-repeat center;
     background-size: 100% 100%;
+    z-index: -1;
   }
   .footerBG {
     position: absolute;
+    margin-top: 10%;
     width: 100%;
-    height: 432px;
-    bottom: 0;
+    height: 100%;
+    bottom: -5%;
     background: url(../assets/images/footerback.svg)
       no-repeat center;
     background-size: cover;
     z-index: 1;
   }
   .headers {
-    position: relative;
-    width: 1082px;
-    height: 60px;
-    margin: 109px 0 0 191px;
-    z-index: 16;
+    margin-top: 100px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
   }
   .H1 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
+    position: relative;
     height: 100%;
     top: 0;
-    left: 49.45%;
-    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-      "Source Han Sans CN", sans-serif;
-    color: #ffffff;
+    left: 100px;
+    color: white;
     font-size: 20px;
     font-weight: 700;
     line-height: 60px;
@@ -60,52 +54,12 @@
     white-space: nowrap;
     z-index: 10;
   }
-  .H2 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 100%;
-    top: 0;
-    left: 74.31%;
-    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-      "Source Han Sans CN", sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 60px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 13;
-  }
-  .H3 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 100%;
-    top: 0;
-    left: 95.84%;
-    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-      "Source Han Sans CN", sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 60px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 16;
-  }
   .footerCircle {
     position: absolute;
     width: 41px;
     height: 41px;
-    top: 9px;
-    left: 0;
+    margin-left: 50px;
+    margin-top: 10px;
     background: url(../assets/images/CircleLogoW.svg)
       no-repeat center;
     background-size: cover;
@@ -113,66 +67,25 @@
     border-radius: 50%;
   }
   .T {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     position: absolute;
-    height: 53.33%;
-    top: 23.33%;
-    left: 1.2%;
-    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-      "Source Han Sans CN", sans-serif;
-    color: #5b9bf3;
+    color: var(--Tcolor);
+    margin-left: 63px;
+    margin-top: 13px;
     font-size: 26px;
     font-weight: 700;
     line-height: 32px;
-    text-align: left;
-    white-space: nowrap;
     z-index: 5;
-  }
-  .name {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 50%;
-    top: 25%;
-    left: 4.9%;
-    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-      "Source Han Sans CN", sans-serif;
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28.125px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 3;
-  }
-  .sub {
-    position: relative;
-    width: 1196px;
-    height: 152px;
-    margin: 2px 0 0 190px;
-    z-index: 12;
   }
   .S1 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    position: absolute;
-    width: 391px;
+    position: relative;
+    width: 211px;
+    max-width: 650px;
     height: 100%;
-    top: 0;
-    left: 44.82%;
-    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-      "Source Han Sans CN", sans-serif;
-    color: #ffffff;
+    left: 100px;
+    color: white;
     font-size: 18px;
     font-weight: 300;
     line-height: 38px;
@@ -181,98 +94,24 @@
     z-index: 9;
     overflow: hidden;
   }
-  .S2 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    width: 391px;
-    height: 100%;
-    top: 0;
-    left: 67.31%;
-    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-      "Source Han Sans CN", sans-serif;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 38px;
-    text-align: left;
-    text-overflow: initial;
-    z-index: 12;
-    overflow: hidden;
-  }
-  .nameS {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    width: 391px;
-    height: 55.26%;
-    top: 3.29%;
-    left: 0;
-    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-      "Source Han Sans CN", sans-serif;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 28px;
-    text-align: left;
-    z-index: 6;
-  }
-  .reg {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    height: 18.42%;
-    top: 78.95%;
-    left: 0;
-    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-      "Source Han Sans CN", sans-serif;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 28px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 7;
-  }
-  .S3 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    width: 391px;
-    height: 100%;
-    left: 86.85%;
-    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
-      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
-      "Source Han Sans CN", sans-serif;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 38px;
-    text-align: left;
-    text-overflow: initial;
-    z-index: 15;
-    overflow: hidden;
-  }
   .footerDots {
     position: absolute;
-    width: 8.03%;
-    height: 21.99%;
-    top: 78.01%;
-    left: -1;
+    width: 131px;
+    height: 175px;
+    top: 220px;
+    left: -100;
     background: url(../assets/images/DotsW.svg)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 17;
   }
   
+  .textwrap {
+    display: flex; 
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
+  }

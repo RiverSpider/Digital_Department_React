@@ -1,78 +1,31 @@
-.box {
-    height: 23px;
+.topnav {
+    height: 100%;
     position: relative;
     width: 545px;
+    padding-top: 13px;
   }
   
-  .box .navbar {
-    float: 'right';
-    height: 23px;
-    right: 200;
-    top: 50;
-    width: 555px;
+  .topnav .navbar {
+    position: absolute; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
   }
   
-  .box .home {
-    color: #1f1534;
-    font-family: "Muli-Bold", Helvetica;
-    font-size: 18px;
-    font-weight: 700;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
   
-  .box .doctor {
+  .topnav .topnavtext {
+    position: relative; 
     color: #1f1534;
     font-family: "Muli-Regular", Helvetica;
     font-size: 18px;
     font-weight: 400;
-    left: 91px;
     letter-spacing: 0;
     line-height: normal;
     opacity: 0.5;
-    position: absolute;
-    top: 0;
   }
   
-  .box .apps {
-    color: #1f1534;
-    font-family: "Muli-Regular", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 241px;
-    letter-spacing: 0;
-    line-height: normal;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-  }
-  
-  .box .tes {
-    color: #1f1534;
-    font-family: "Muli-Regular", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 325px;
-    letter-spacing: 0;
-    line-height: normal;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-  }
-  
-  .box .au {
-    color: #1f1534;
-    font-family: "Muli-Regular", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 469px;
-    letter-spacing: 0;
-    line-height: normal;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-  }
   

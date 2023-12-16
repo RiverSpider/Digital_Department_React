@@ -1,5 +1,10 @@
 :root {
-  --commonBlack: #000000;
+  --subtextColor: #7c7987;
+  --buttonBlueBG: #458ff6;
+  --shadow: 0 100px 100px 0 rgba(228, 233, 245, 0.4);
+  --buttonArticle: #3f88ed;
+  --Tcolor: #5b9bf3;
+  --logoTextcolor: #233248;
 }
 
 body {

@@ -8,16 +8,13 @@ export default function HeaderText() {
               Virtual healthcare <br />
               for you
             </div>
-            <p className="SubText">
+            <div className="SubText">
               Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone
-            </p>
+            </div>
             <div className="Button">
-              <div className="overlap-group">
-                <div className="rectangle" />
                 <div className="ButText">Consult today</div>
               </div>
             </div>
           </div>
-        </div>
       );
 }

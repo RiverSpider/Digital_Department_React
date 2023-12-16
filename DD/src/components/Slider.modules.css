@@ -10,39 +10,40 @@
   .slider {
     position: relative;
     width: 336.429px;
-    height: 20px;
+    height: 50px;
     margin: 0 auto;
   }
   .arrowforward {
-    position: absolute;
+    position: relative;
     width: 31.429px;
     height: 20px;
-    top: 0px;
+    top: 0;
     left: 305px;
-    background: url(assets/images/Arrowright.svg)
+    background: url(../assets/images/Arrowright.svg)
       no-repeat center;
     background-size: cover;
     z-index: 1;
     overflow: hidden;
   }
   .arrowback {
-    position: absolute;
+    position: relative;
     width: 31.429px;
     height: 20px;
-    top: 0;
+    top: -20px;
     left: 0px;
-    background: url(assets/images/Arrowleft.svg)
+    background: url(../assets/images/Arrowleft.svg)
       no-repeat center;
     background-size: cover;
     overflow: hidden;
   }
   .sliderimg {
-    position: absolute;
-    width: 94px;
+    justify-content: center;
+    position: relative;
+    width: 96px;
     height: 10px;
-    top: 5px;
-    left: 121px;
-    background: url(assets/images/Slider.svg)
+    left: 122px;
+    top: -35px;
+    background: url(../assets/images/Slider.svg)
       no-repeat center;
     background-size: cover;
     z-index: 2;

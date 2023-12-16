@@ -1,20 +1,24 @@
 import './Article.modules.css';
 
-export default function Article(props: { imageSrc: any, headerText: any, subText: any, buttonText: any }) {
+interface IProps {
+  ImageSrc: string; HeaderText: string; SubText: string; ButtonText: any;
+}
+
+export default function Article(props: IProps) {
   return (
     <div className='article'>
       <div className='articlecontainer' />
       <span className='articleH'>
-        {props.headerText}
+        {props.HeaderText}
       </span>
       <span className='articleS'>
-        {props.subText}
+        {props.SubText}
       </span>
       <div
             className='articleimg'
-            style={{ backgroundImage: `url(${props.imageSrc})`, }}
+            style={{ backgroundImage: `url(${props.ImageSrc})`, }}
         />
-      <span className='articleBT'>{props.buttonText}</span>
+      <span className='articleBT'>{props.ButtonText}</span>
     </div>
   );
 }

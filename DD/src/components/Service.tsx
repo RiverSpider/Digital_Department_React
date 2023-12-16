@@ -1,14 +1,18 @@
 import './Service.modules.css';
 
-export default function Service(props: { imageSrc: any, headerText: any, serviceText: any }) {
+interface IProps {
+    ImageSrc: string; HeaderText: string; ServiceText: string;
+  }
+
+export default function Service(props: IProps) {
     return (
         <div className='service'>
         <div
             className='pic'
-            style={{ backgroundImage: `url(${props.imageSrc})`, }}
+            style={{ backgroundImage: `url(${props.ImageSrc})`, }}
         />
-        <span className='serviceH'>{props.headerText}</span>
-        <span className='serviceS'>{props.serviceText}</span>
+        <span className='serviceH'>{props.HeaderText}</span>
+        <span className='serviceS'>{props.ServiceText}</span>
         </div>
     );
 }

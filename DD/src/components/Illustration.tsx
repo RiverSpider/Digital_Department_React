@@ -1,10 +1,18 @@
 import "./Illustration.modules.css";
 
-export default function Illustration(props: { width: any; height: any; imageUrl: any; }) {
+interface IProps {
+  Width: string; Height: string; ImageUrl: string;
+}
+
+export default function Illustration(props: IProps) {
   const style = {
-    width: props.width,
-    height: props.height,
-    backgroundImage: `url('${props.imageUrl}')`,
+    maxWidth: props.Width,
+    maxHeight: props.Height,
+    width: "41vw",
+    height: "35vw",
+    minWidth: "350px",
+    minHeight: "300px",
+    backgroundImage: `url('${props.ImageUrl}')`,
   };
 
   return <div className='illustration' style={style} />;

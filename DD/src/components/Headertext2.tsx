@@ -1,17 +1,27 @@
 import './Headertext2.modules.css';
 import WoButton from './Wobutton';
 
-export default function HeaderText2(props: { TextH: any, TextS: any, TextB: any }) {
+interface IProps {
+  textH: string;
+  textS: string;
+  textB: string;
+  buttonIcon?: React.ReactNode;
+  showDivider: boolean;
+}
+
+export default function HeaderText2({
+  textH,
+  textS,
+  textB,
+  buttonIcon,
+  showDivider
+}: IProps) {
   return (
-    <div className='headertext2'>
-      <span className='textH'>{props.TextH}</span>
-      <div className='dividerH' />
-      <span className='textS'>
-      {props.TextS}
-      </span>
-      <div style={{ position: 'relative', marginRight: "58%", marginTop: '14%' }}>
-      <WoButton Text={props.TextB} />
-      </div>
+    <div className="headertext2">
+      <span className="textH">{textH}</span>
+      {showDivider ? <div className="dividerH" /> : null}
+      <span className="textS">{textS}</span>
+      <WoButton className="HTbutton" Text={textB} buttonIcon={buttonIcon} />
     </div>
   );
 }

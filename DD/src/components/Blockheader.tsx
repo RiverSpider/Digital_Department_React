@@ -1,11 +1,15 @@
 import './Blockheader.modules.css';
 
-export default function BlockHeader(props: { title: any, description: any }) {
+interface IProps {
+  Title: string; Description: any; 
+}
+
+export default function BlockHeader(props: IProps) {
     return (
       <div className='blockheader'>
-        <span className='header'>{props.title}</span>
+        <span className='header'>{props.Title}</span>
         <div className='divider' />
-        <span className='description'>{props.description}</span>
+        <span className='description'>{props.Description}</span>
       </div>
     );
   }

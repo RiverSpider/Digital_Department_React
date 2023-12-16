@@ -4,12 +4,12 @@ import './Services.modules.css';
 export default function Services() {
     return (
         <div className="services-container">
-            <Service imageSrc={'src/assets/images/Search.svg'} headerText={'Search doctor'} serviceText={'Choose your doctor from thousands of specialist, general, and trusted hospitals'}  />
-            <Service imageSrc={'src/assets/images/Pharmacy.svg'} headerText={'Online pharmacy'} serviceText={'Buy your medicines with our mobile application with a simple delivery system'}  />
-            <Service imageSrc={'src/assets/images/Consultation.svg'} headerText={'Consultation'} serviceText={'Free consultation with our trusted doctors and get the best recomendations'}  />
-            <Service imageSrc={'src/assets/images/Details.svg'} headerText={'Details info'} serviceText={'Free consultation with our trusted doctors and get the best recomendations'}  />
-            <Service imageSrc={'src/assets/images/Care.svg'} headerText={'Emergency care'} serviceText={'You can get 24/7 urgent care for yourself or your children and your lovely family'}  />
-            <Service imageSrc={'src/assets/images/Tracking.svg'} headerText={'Tracking'} serviceText={'Track and save your medical history and health data'}  />
+            <Service ImageSrc={'src/assets/images/Search.svg'} HeaderText={'Search doctor'} ServiceText={'Choose your doctor from thousands of specialist, general, and trusted hospitals'}  />
+            <Service ImageSrc={'src/assets/images/Pharmacy.svg'} HeaderText={'Online pharmacy'} ServiceText={'Buy your medicines with our mobile application with a simple delivery system'}  />
+            <Service ImageSrc={'src/assets/images/Consultation.svg'} HeaderText={'Consultation'} ServiceText={'Free consultation with our trusted doctors and get the best recomendations'}  />
+            <Service ImageSrc={'src/assets/images/Details.svg'} HeaderText={'Details info'} ServiceText={'Free consultation with our trusted doctors and get the best recomendations'}  />
+            <Service ImageSrc={'src/assets/images/Care.svg'} HeaderText={'Emergency care'} ServiceText={'You can get 24/7 urgent care for yourself or your children and your lovely family'}  />
+            <Service ImageSrc={'src/assets/images/Tracking.svg'} HeaderText={'Tracking'} ServiceText={'Track and save your medical history and health data'}  />
         </div>
     );
 }
