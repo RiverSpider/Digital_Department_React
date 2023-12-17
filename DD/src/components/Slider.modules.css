@@ -7,45 +7,46 @@
     box-sizing: border-box;
   }
   
-  .slider {
-    position: relative;
-    width: 336.429px;
-    height: 50px;
-    margin: 0 auto;
-  }
+.slider {
+  width: 80%;
+  height: 50%; 
+  margin: 0 auto;
+}
   .arrowforward {
     position: relative;
     width: 31.429px;
     height: 20px;
     top: 0;
-    left: 305px;
+    left: 120px;
     background: url(../assets/images/Arrowright.svg)
       no-repeat center;
     background-size: cover;
     z-index: 1;
     overflow: hidden;
+    margin: auto;
   }
   .arrowback {
     position: relative;
     width: 31.429px;
     height: 20px;
     top: -20px;
-    left: 0px;
+    right: 120px;;
     background: url(../assets/images/Arrowleft.svg)
       no-repeat center;
     background-size: cover;
     overflow: hidden;
+    margin: auto;
   }
   .sliderimg {
     justify-content: center;
     position: relative;
     width: 96px;
     height: 10px;
-    left: 122px;
     top: -35px;
     background: url(../assets/images/Slider.svg)
       no-repeat center;
     background-size: cover;
     z-index: 2;
+    margin: auto;
   }
   

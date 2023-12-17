@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Logo from './Logo.tsx'
 import TopNav from './Topnav.tsx'
 import Dots from './Dots.tsx'
@@ -14,6 +15,19 @@ import Articles from './Articles.tsx'
 import Footer from './Footer.tsx'
 
 export default function App() {
+  const [clicks, setClicks] = useState(0);
+  const [buttonText, setButtonText] = useState("View all");
+
+  const handleClick = () => {
+    setClicks(clicks + 1);
+    if (clicks % 2 === 0) {
+      setButtonText("Hide");
+    } else {
+      setButtonText("View all");
+    }
+  };
+
+
     return (
         <div style={{ display:  'flex', flexDirection: 'column', gap: '70px', overflow: 'hidden'}}>
 
@@ -67,7 +81,6 @@ export default function App() {
             <Illustration Width="665px" Height="434px" ImageUrl= "src/assets/images/HeaderIllustration3.png" />
           </div>
         </div>
-        <Review ReviewH={"What our customer are saying"} ReviewText={"Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely"} ReviewName={"Edward Newgate"} ReviewW={"Founder Circle"} Avatar={"src/assets/images/Avatar.png"} />
         <Slider />
         <div style={{justifyContent: 'center'}}>
         <BlockHeader
@@ -80,11 +93,12 @@ export default function App() {
             <Dots />
           </div>
           <Articles />
+          {clicks % 2 === 1 && <Articles />}
           <div style={{ position: 'absolute', top: "-16%", transform: 'rotateX(180deg) rotateY(180deg)', right: "-20%", zIndex: -1 }}>
             <Oval />
           </div>
         </div>
-        <WoButton Text={"View all"} />
+        <WoButton Text={buttonText} onClick={handleClick} />
         <Footer />
       </div>
     );
