@@ -57,7 +57,7 @@ export default function App() {
         <div style={{ position: 'absolute', top: 1000, marginLeft: -10, overflow: 'hidden' }}>
           <Oval />
         </div>
-        <div style={{ position: 'absolute', top: 1360, right:325, zIndex: -1}}>
+        <div style={{ position: 'absolute', top: 1407, right:265, zIndex: -1}}>
           <Dots />
         </div>
         <WoButton Text={"Learn more"} />
@@ -68,7 +68,7 @@ export default function App() {
           </div>
           <div style={{ flex: 'none', marginTop: '5%'}}>
             <HeaderText2 textH={"Leading healthcare providers"} textS={"We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride in the solutions we deliver"} textB={"Learn more"} showDivider={true} /></div>
-            <div style={{ position: 'absolute', right: "8%", marginTop: "27%", overflow: 'hidden'}}>
+            <div style={{ position: 'absolute', right: "5%", marginTop: "27%"}}>
               <Dots />
             </div>
         </div>

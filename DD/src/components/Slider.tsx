@@ -30,7 +30,7 @@ const reviews: Review[] = [
     ReviewH: "What our customer are saying",
     ReviewText: "I Drive (2016)",
     ReviewName: "RyanGosling",
-    ReviewW: "Founder Circle",
+    ReviewW: "Ken",
     Avatar: "src/assets/images/RyanGosling.jpg",
   },
   {
@@ -62,8 +62,16 @@ export default function Slider() {
   return (
     <div className="slider">
       <Review {...reviews[index]} />
-      <div className="arrowforward" onClick={nextSlide} />
-      <div className="arrowback" onClick={prevSlide} />
+      {index === 0 ? (
+        <div className="arrowbackDis"  />
+      ) : (
+        <div className="arrowback" onClick={prevSlide} />
+      )}
+      {index === reviews.length - 1 ? (
+        <div className="arrowforwardDis" />
+      ) : (
+        <div className="arrowforward" onClick={nextSlide} />
+      )}
       <div className="sliderimg">
       </div>
     </div>

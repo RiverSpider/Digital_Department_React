@@ -5,6 +5,10 @@
     padding-top: 13px;
   }
   
+  .topnavtext:hover {
+    text-decoration: underline;
+  }
+
   .topnav .navbar {
     position: absolute; 
     display: flex; 
