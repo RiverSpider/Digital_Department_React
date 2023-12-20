@@ -1,0 +1,117 @@
+.slider {
+    overflow: hidden;
+  }
+  
+  .slider,
+  .slider * {
+    box-sizing: border-box;
+  }
+  
+.slider {
+  width: 80%;
+  height: 50%; 
+  margin: 0 auto;
+}
+  .arrowforward {
+    position: relative;
+    width: 31.429px;
+    height: 20px;
+    top: -20px;
+    left: 120px;
+    background: url(../assets/images/Arrowright.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  .arrowforwardDis {
+    position: relative;
+    width: 31.429px;
+    height: 20px;
+    top: -20px;
+    left: 120px;
+    background: url(../assets/images/Arrowleft.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    overflow: hidden;
+    margin: auto;
+    transform: rotate(180deg);
+  }
+
+  .arrowback {
+    position: relative;
+    width: 31.429px;
+    height: 20px;
+    right: 120px;;
+    background: url(../assets/images/Arrowright.svg)
+      no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    margin: auto;
+    transform: rotate(180deg);
+  }
+
+  .arrowbackDis {
+    position: relative;
+    width: 31.429px;
+    height: 20px;
+    right: 120px;;
+    background: url(../assets/images/Arrowleft.svg)
+      no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  .sliderimg1 {
+    justify-content: center;
+    position: relative;
+    width: 96px;
+    height: 10px;
+    top: -35px;
+    background: url(../assets/images/Slider1.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    margin: auto;
+  }
+  .sliderimg2 {
+    justify-content: center;
+    position: relative;
+    width: 96px;
+    height: 10px;
+    top: -35px;
+    background: url(../assets/images/Slider2.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    margin: auto;
+  }
+  .sliderimg3 {
+    justify-content: center;
+    position: relative;
+    width: 96px;
+    height: 10px;
+    top: -35px;
+    background: url(../assets/images/Slider3.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    margin: auto;
+  }
+  .sliderimg4 {
+    justify-content: center;
+    position: relative;
+    width: 96px;
+    height: 10px;
+    top: -35px;
+    background: url(../assets/images/Slider4.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    margin: auto;
+  }
+  

@@ -1,0 +1,57 @@
+.service {
+    overflow: hidden;
+  }
+  
+  .service,
+  .service * {
+    box-sizing: border-box;
+  }
+  
+  .service {
+    position: relative;
+    width: 350px;
+    height: 354px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    background-color: white;
+    z-index: 0;
+  }
+  .pic {
+    position: relative;
+    margin: 54px 0 0 39px;
+    border-radius: 0;
+    width: 30%;
+    height: 30%;
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  .serviceH {
+    display: block;
+    position: relative;
+    height: 56px;
+    margin: 23px 0 0 39px;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .serviceS {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 266px;
+    height: 84px;
+    margin: 1px 0 0 39px;
+    color: var(--subtextColor);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    z-index: 2;
+  }
+  

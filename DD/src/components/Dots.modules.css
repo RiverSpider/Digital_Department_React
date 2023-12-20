@@ -1,0 +1,18 @@
+.dots {
+    overflow-x: visible;
+  }
+  
+  .dots,
+  .dots * {
+    box-sizing: border-box;
+  }
+  
+  .dots {
+    position: absolute;
+    width: 131.581px;
+    height: 115px;
+    background: url(../assets/images/Dots.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+  }
+  

@@ -1,0 +1,35 @@
+.topnav {
+    height: 100%;
+    position: relative;
+    width: 545px;
+    padding-top: 13px;
+  }
+  
+  .topnavtext:hover {
+    text-decoration: underline;
+  }
+
+  .topnav .navbar {
+    position: absolute; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+  }
+  
+  
+  .topnav .topnavtext {
+    position: relative; 
+    color: #1f1534;
+    font-family: "Muli-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.5;
+  }
+  
+  
