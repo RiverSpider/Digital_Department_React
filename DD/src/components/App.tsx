@@ -9,25 +9,11 @@ import Services from './Services.tsx'
 import Oval from './Oval.tsx'
 import WoButton from './Wobutton.tsx'
 import HeaderText2 from './Headertext2.tsx'
-import Review from './Review.tsx'
 import Slider from './Slider.tsx'
 import Articles from './Articles.tsx'
 import Footer from './Footer.tsx'
 
 export default function App() {
-  const [clicks, setClicks] = useState(0);
-  const [buttonText, setButtonText] = useState("View all");
-
-  const handleClick = () => {
-    setClicks(clicks + 1);
-    if (clicks % 2 === 0) {
-      setButtonText("Hide");
-    } else {
-      setButtonText("View all");
-    }
-  };
-
-
     return (
         <div style={{ display:  'flex', flexDirection: 'column', gap: '70px', overflow: 'hidden'}}>
 
@@ -68,7 +54,7 @@ export default function App() {
           </div>
           <div style={{ flex: 'none', marginTop: '5%'}}>
             <HeaderText2 textH={"Leading healthcare providers"} textS={"We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride in the solutions we deliver"} textB={"Learn more"} showDivider={true} /></div>
-            <div style={{ position: 'absolute', right: "5%", marginTop: "27%"}}>
+            <div style={{ position: 'absolute', right: "9%", marginTop: "27%", overflow: 'fixed'}}>
               <Dots />
             </div>
         </div>
@@ -93,12 +79,10 @@ export default function App() {
             <Dots />
           </div>
           <Articles />
-          {clicks % 2 === 1 && <Articles />}
           <div style={{ position: 'absolute', top: "-16%", transform: 'rotateX(180deg) rotateY(180deg)', right: "-20%", zIndex: -1 }}>
             <Oval />
           </div>
         </div>
-        <WoButton Text={buttonText} onClick={handleClick} />
         <Footer />
       </div>
     );
