@@ -2,7 +2,7 @@ import './Wobutton.modules.css';
 
 interface IProps {
   className?: string;
-  Text: string;
+  text: string;
   buttonIcon?: React.ReactNode;
   onClick?: React.MouseEventHandler<HTMLElement>; // ????????? ????? onClick ? ?????
 }
@@ -10,7 +10,7 @@ interface IProps {
 export default function WoButton(props: IProps) {
   return (
     <div className={`${props.className} wobutton`} onClick={props.onClick}>
-      <div className="butext">{props.Text}</div>
+      <div className="butext">{props.text}</div>
       {props.buttonIcon ? (
         <div className="buttonIcon">{props.buttonIcon}</div>
       ) : null}

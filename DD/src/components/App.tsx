@@ -28,7 +28,7 @@ export default function App() {
           </div>
           <div style={{ flex: 'none', marginTop: '9%', marginBottom: "50px"}}><HeaderText /></div>
           <div style={{ flex: 'none' }}>
-            <Illustration Width="693px" Height="598px" ImageUrl= "src/assets/images/HeaderIllustration.png" />
+            <Illustration width="693px" height="598px" imageUrl= "src/assets/images/HeaderIllustration.png" />
           </div>
         </div>
         <div style={{justifyContent: 'center', marginTop: '-10%',}}>
@@ -46,11 +46,11 @@ export default function App() {
         <div style={{ position: 'absolute', top: 1407, right:265, zIndex: -1}}>
           <Dots />
         </div>
-        <WoButton Text={"Learn more"} />
+        <WoButton text={"Learn more"} />
   
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginLeft: '10%', marginRight: '15%', flexWrap: 'wrap' }}>
           <div style={{ flex: 'none' }}>
-            <Illustration Width="650px" Height="477px" ImageUrl= "src/assets/images/HeaderIllustration2.png" />
+            <Illustration width="650px" height="477px" imageUrl= "src/assets/images/HeaderIllustration2.png" />
           </div>
           <div style={{ flex: 'none', marginTop: '5%'}}>
             <HeaderText2 textH={"Leading healthcare providers"} textS={"We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride in the solutions we deliver"} textB={"Learn more"} showDivider={true} /></div>
@@ -64,7 +64,7 @@ export default function App() {
             <HeaderText2 textH={"Download our mobile apps"} textS={"Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely"} textB="Download" buttonIcon={ <img src="src/assets/images/Arrowdown.svg" />} showDivider={true}/></div>
                 
             <div style={{ flex: 'none' }}>
-            <Illustration Width="665px" Height="434px" ImageUrl= "src/assets/images/HeaderIllustration3.png" />
+            <Illustration width="665px" height="434px" imageUrl= "src/assets/images/HeaderIllustration3.png" />
           </div>
         </div>
         <Slider />

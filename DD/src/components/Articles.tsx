@@ -91,7 +91,7 @@ export default function Articles() {
                     </div>} /></>
             }
         </div>
-            <WoButton Text={buttonText} onClick={handleClick} />
+            <WoButton text={buttonText} onClick={handleClick} />
             </div>
     );
 }
