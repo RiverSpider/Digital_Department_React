@@ -1,7 +1,7 @@
 import './Review.modules.css';
 
 interface IProps {
-  ReviewH: string, ReviewText: string, ReviewName: string, ReviewW: string, Avatar: string
+  reviewH: string, reviewText: string, reviewName: string, reviewW: string, avatar: string
 }
 
 export default function Review(props: IProps) {
@@ -9,20 +9,17 @@ export default function Review(props: IProps) {
     <div className='review'>
       <div className='dotsW' />
       <div className='reviewbackground'>
-        <div className='reviewtextbox'>
-          <span className='reviewH'>{props.ReviewH}</span>
-          <div className='reviewDivider' />
-          <span className='reviewText'>
-          {props.ReviewText}
-          </span>
-          <span className='reviewName'>{props.ReviewName}</span>
-          <span className='reviewW'>{props.ReviewW}</span>
-        </div>
-        <div className='circle' />
-        <div
-            className='avatar'
-            style={{ backgroundImage: `url(${props.Avatar})`, }}
-        />
+      <div className='reviewContainer'>
+  <div className='reviewtextbox'>
+    <span className='reviewH'>{props.reviewH}</span>
+    <div className='reviewDivider' />
+    <span className='reviewText'>{props.reviewText}</span>
+    <span className='reviewName'>{props.reviewName}</span>
+    <span className='reviewW'>{props.reviewW}</span>
+  </div>
+  <div className='circle' />
+  <div className='avatar' style={{ backgroundImage: `url(${props.avatar})` }} />
+</div>
       </div>
       <div className='dotsB' />
     </div>

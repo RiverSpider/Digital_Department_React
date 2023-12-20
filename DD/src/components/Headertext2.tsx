@@ -21,7 +21,7 @@ export default function HeaderText2({
       <span className="textH">{textH}</span>
       {showDivider ? <div className="dividerH" /> : null}
       <span className="textS">{textS}</span>
-      <WoButton className="HTbutton" Text={textB} buttonIcon={buttonIcon} />
+      <WoButton className="HTbutton" text={textB} buttonIcon={buttonIcon} />
     </div>
   );
 }

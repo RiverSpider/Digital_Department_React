@@ -3,47 +3,48 @@ import Review from "./Review";
 import './Slider.modules.css';
 
 interface Review {
-  ReviewH: string;
-  ReviewText: string;
-  ReviewName: string;
-  ReviewW: string;
-  Avatar: string;
+  reviewH: string;
+  reviewText: string;
+  reviewName: string;
+  reviewW: string;
+  avatar: string;
 }
 
 const reviews: Review[] = [
   {
-    ReviewH: "What our customer are saying",
-    ReviewText:
+    reviewH: "What our customer are saying",
+    reviewText:
       "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
-    ReviewName: "Edward Newgate",
-    ReviewW: "Founder Circle",
-    Avatar: "src/assets/images/Avatar.png",
+    reviewName: "Edward Newgate",
+    reviewW: "Founder Circle",
+    avatar: "src/assets/images/Avatar.png",
   },
   {
-    ReviewH: "What our customer are saying",
-    ReviewText: "One Piece is real",
-    ReviewName: "Edward Newgate",
-    ReviewW: "Founder Circle",
-    Avatar: "src/assets/images/EdwardNewgate.jpg",
+    reviewH: "What our customer are saying",
+    reviewText: "One Piece is real",
+    reviewName: "Edward Newgate",
+    reviewW: "Founder Circle",
+    avatar: "src/assets/images/EdwardNewgate.jpg",
   },
   {
-    ReviewH: "What our customer are saying",
-    ReviewText: "I Drive (2016)",
-    ReviewName: "RyanGosling",
-    ReviewW: "Ken",
-    Avatar: "src/assets/images/RyanGosling.jpg",
+    reviewH: "What our customer are saying",
+    reviewText: "I Drive (2016)",
+    reviewName: "RyanGosling",
+    reviewW: "Ken",
+    avatar: "src/assets/images/RyanGosling.jpg",
   },
   {
-    ReviewH: "What our customer are saying",
-    ReviewText: "789",
-    ReviewName: "Edward Newgate",
-    ReviewW: "Founder Circle",
-    Avatar: "src/assets/images/Avatar.png",
+    reviewH: "What our customer are saying",
+    reviewText: "789",
+    reviewName: "Edward Newgate",
+    reviewW: "Founder Circle",
+    avatar: "src/assets/images/Avatar.png",
   },
 ];
 
 export default function Slider() {
   const [index, setIndex] = useState(0);
+  const sliderImages = ["sliderimg1", "sliderimg2", "sliderimg3", "sliderimg4",];
 
   const nextSlide = () => {
     setIndex(index + 1);
@@ -59,6 +60,8 @@ export default function Slider() {
     }
   };
 
+  const currentImageClassName = sliderImages[index % sliderImages.length];
+
   return (
     <div className="slider">
       <Review {...reviews[index]} />
@@ -72,7 +75,8 @@ export default function Slider() {
       ) : (
         <div className="arrowforward" onClick={nextSlide} />
       )}
-      <div className="sliderimg">
+
+      <div className={currentImageClassName}>
       </div>
     </div>
   );
